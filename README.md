@@ -18,7 +18,7 @@ A high-precision Real-Time Clock (RTC) system implemented using the **ATmega32**
 * **Peripherals:** Character LCD (16x2)
 * **Communication Protocol:** I2C / TWI (Two-Wire Interface)
 * **Programming Language:** Embedded C
-* **Simulation & Tools:** Proteus VSM, Microchip Studio / Eclipse IDE
+* **Simulation & Tools:** Proteus VSM, Eclipse IDE
 
 ---
 
