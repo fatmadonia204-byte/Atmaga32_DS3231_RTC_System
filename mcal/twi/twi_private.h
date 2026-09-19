@@ -1,0 +1,19 @@
+#ifndef TWI_PRIVATE_H
+#define TWI_PRIVATE_H
+
+#include "../../lib/common_macros.h"
+
+#define TWI_STATUS_MASK 0xF8U
+
+enum
+{
+    TWI_STATUS_START = 0x08U,
+    TWI_STATUS_REPEATED_START = 0x10U,
+    TWI_STATUS_SLA_W_ACK = 0x18U,
+    TWI_STATUS_SLA_R_ACK = 0x40U,
+    TWI_STATUS_DATA_W_ACK = 0x28U,
+    TWI_STATUS_DATA_R_ACK = 0x50U,
+    TWI_STATUS_DATA_R_NACK = 0x58U
+};
+
+#endif
